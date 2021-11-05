@@ -8,5 +8,4 @@ class Figure:
         try:
             return self.area + figure.area
         except:
-            #print("Incorrect Class")
             return "Incorrect Class"
