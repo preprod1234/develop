@@ -39,7 +39,7 @@ for book in new_books_list:
     new_users_list[item]['books'].append(book)
 
 
-with open("reference.json", "w") as f:
+with open("result.json", "w") as f:
     s = json.dumps(new_users_list, indent=4)
     f.write(s)
 
